@@ -1,22 +1,18 @@
-#include "stdafx.h"
-#include <iostream>
-#include <stdio.h>
+#pragma once
 #include <string>
 
-using namespace std;
-
-class Time 
+class Time
 {
 private:
-	long hours;
-	unsigned char minutes;
-public:
-	void setTime(long newHours, unsigned char newMinutes );
-	long getHours();
-	unsigned char getMinutes();
-	Time operator+ (Time& plusTime);
-	Time operator- (Time& minusTime);
-	Time operator* (int mulTime);
-	void print();
+	int hours;
+	int minutes;
 
+public:
+	void setTime(int newHours, int newMinutes);
+	long getHours();
+	long getMinutes();
+	Time operator+(Time &plusTime);
+	Time operator-(Time &minusTime);
+	Time operator*(int mulTimes);
+	void print();
 };
