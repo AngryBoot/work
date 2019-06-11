@@ -1,0 +1,3 @@
+﻿  Source.cpp
+c:\users\brotaku\documents\github\work\5\5\source.cpp(7): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  5.vcxproj -> C:\Users\Brotaku\Documents\GitHub\work\5\Debug\5.exe

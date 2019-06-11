@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (Task_4.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  Source.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(720,5): error MSB6006: "link.exe" завершилась с кодом 1104.
+LINK : fatal error LNK1104: не удается открыть файл "..\Debug\Dll1.lib"
